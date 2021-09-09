@@ -53,6 +53,7 @@ def modificador():
         datos[i].datos_de_jugadores()
 
 def carrera(ganadores):
+    print('empezo la carrera')
     while ganadores!=4:
         for i in range(len(datos)):
             dado = random.randint(1, 6) * 100
